@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --main-font: 'Montserrat', sans-serif;
+    --dark-bg: #252B42;
+    --button-main: #EF2779;
+}
+
+body{
+    font-family: var(--main-font);
+    background-image: linear-gradient(to bottom right, var(--dark-bg) , #B02E9E);
+    color: white;
+}
+
+.main-bg{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#main-button{
+    background-color: var(--button-main);
+    color: white;
+    transition: opacity 0.5s linear;
+}
+
+#main-button:hover{
+    background-color: #fd4491;
+}
+
+#formContainer{
+    transition: opacity 0.1s linear;
+}
+
+#formContainer.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#maindiv{
+    display: none;
+}
+
+.tabs-style{
+    font-family: var(--main-font);
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+#botao-enviar-saque{
+    background-color: var(--button-main);
+    color: white;
+    transition: opacity 0.5s linear;
+}
+
+#botao-enviar-saque:hover{
+    background-color: #fd4491;
+}
+
+#botao-enviar-deposito{
+    background-color: var(--button-main);
+    color: white;
+    transition: opacity 0.5s linear;
+}
+
+#botao-enviar-deposito:hover{
+    background-color: #fd4491;
+}
+
+
+.modal-style{
+    color: #252B42;
+}
+
+.button-style{
+    background-color: var(--button-main);
+    color: white;
+    transition: opacity 0.5s linear;
+}
